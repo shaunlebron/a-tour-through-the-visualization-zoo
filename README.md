@@ -64,7 +64,7 @@ Stanford University</em>
 <div class="figure">
 
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/time/index-chart.html">
-	<img src="img/index.png" title="Index Chart"/>
+	<img src="img/index.png" height="406" title="Index Chart"/>
 </a>
 </div>
 <p>
@@ -76,7 +76,7 @@ With some forms of time-series data, raw values are less important than relative
 <h3>Stacked Graphs</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/time/stack.html">
-	<img src="img/stacked_graph.png" title="Stacked Graph"/>
+	<img src="img/stacked_graph.png" height="392" title="Stacked Graph"/>
 </a>
 </div>
 <p>
@@ -87,7 +87,7 @@ Other forms of time-series data may be better seen in aggregate. By stacking are
 <h3>Small Multiples</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/time/multiples.html">
-	<img src="img/small_multiples.png" title="Small Multiples"/>
+	<img src="img/small_multiples.png" height="364" title="Small Multiples"/>
 </a>
 </div>
 <p>
@@ -99,7 +99,7 @@ In lieu of stacking, multiple time-series can be plotted within the same axes, a
 
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/time/horizon.html">
-	<img src="img/horizon.png" title="Horizon Graphs"/>
+	<img src="img/horizon.png" height="350" title="Horizon Graphs"/>
 </a>
 </div>
 
@@ -115,7 +115,7 @@ However, what happens when you want to compare even more time-series at once? <e
 <h3>Stem-and-Leaf Plots</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/stats/stem-and-leaf.html">
-	<img src="img/stem_and_leaf_plot.png" title="Stem-and-Leaf Plots"/>
+	<img src="img/stem_and_leaf_plot.png" height="240" title="Stem-and-Leaf Plots"/>
 </a>
 </div>
 <p>
@@ -127,7 +127,7 @@ When assessing a collection of numbers, one alternative to the histogram is the 
 <h3>Q-Q Plots</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/stats/qqplot.html">
-	<img src="img/qq_plot.png" title="Q-Q Plots"/>
+	<img src="img/qq_plot.png" height="242" title="Q-Q Plots"/>
 </a>
 </div>
 <p>
@@ -139,7 +139,7 @@ While histograms and stem-and-leaf plots are one common tools for assessing a fr
 <h3>Scatter Plot Matrix (SPLOM)</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/stats/splom.html">
-	<img src="img/scatter_plot.png" title="Scatter Plot Matrix (SPLOM)"/>
+	<img src="img/scatter_plot.png" height="530" title="Scatter Plot Matrix (SPLOM)"/>
 </a>
 </div>
 <p>
@@ -151,7 +151,7 @@ Other visualization techniques attempt to represent the relationships among mult
 <h3>Parallel Coordinates</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/stats/parallel.html">
-	<img src="img/parallel.png" title="Parallel Coordinates"/>
+	<img src="img/parallel.png" height="480" title="Parallel Coordinates"/>
 </a>
 </div>
 <p>
@@ -167,7 +167,7 @@ Other visualization techniques attempt to represent the relationships among mult
 <h3>Flow Maps</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/maps/napoleon.html">
-	<img src="img/napoleon.png" title="Flow Maps"/>
+	<img src="img/napoleon.png" height="400" title="Flow Maps"/>
 </a>
 </div>
 <p>
@@ -179,7 +179,7 @@ By placing stroked lines on top of a geographic map, a <em>flow map</em> can dep
 <h3>Choropleth Maps</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/maps/choropleth.html">
-	<img src="img/choropleth.png" title="Choropleth Maps"/>
+	<img src="img/choropleth.png" height="342" title="Choropleth Maps"/>
 </a>
 </div>
 <p>
@@ -191,7 +191,7 @@ Data is often collected and aggregated by geographical areas such as states. A s
 <h3>Graduated Symbol Maps</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/maps/symbol.html">
-	<img src="img/graduated_symbol.png" title="Graduated Symbol Maps"/>
+	<img src="img/graduated_symbol.png" height="328" title="Graduated Symbol Maps"/>
 </a>
 </div>
 <p>
@@ -203,7 +203,7 @@ An alternative to choropleth maps is the <em>graduated symbol map</em>, which in
 <h3>Cartograms</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/maps/cartogram.html">
-	<img src="img/dorling.png" title="Dorling Cartogram"/>
+	<img src="img/dorling.png" height="340" title="Dorling Cartogram"/>
 </a>
 </div>
 <p>
@@ -219,20 +219,20 @@ An alternative to choropleth maps is the <em>graduated symbol map</em>, which in
 <h3>Node-Link Diagrams</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/hierarchies/tree.html">
-	<img src="img/ex-hierarchies-tree.png" title="Tree"/>
+	<img src="img/ex-hierarchies-tree.png" height="220" title="Tree"/>
 </a>
 </div>
 <p>The word "tree" is used interchangeably with "hierarchy", as the fractal branches of an oak might mirror the nesting of data. If we take a two-dimensional blueprint of a tree, we have a popular choice for visualizing hierarchies: a <i>node-link diagram</i>. Many different tree layout algorithms have been designed; the Reingold-Tilford algorithm, used above on a package hierarchy of software classes, produces a tidy result with minimal wasted space.</p>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/hierarchies/cluster-radial.html">
-	<img src="img/ex-hierarchies-cluster-radial.png" title="Radial Cluster"/>
+	<img src="img/ex-hierarchies-cluster-radial.png" height="640" title="Radial Cluster"/>
 </a>
 </div>
 <p>An alternative visualization scheme is the <i>dendrogram</i> (or "cluster") algorithm, which places leaf nodes of the tree at the same level. Thus in the diagram above, the classes (orange leaf nodes) are on the diameter of the circle, with the packages (blue internal nodes) inside. Using polar rather than Cartesian coordinates has a pleasing aeshetic, while using space more efficiently.</p>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/hierarchies/indent.html"
    style="display:block;border:solid 2px #ccc;height:500px;overflow:auto;">
-	<img src="img/ex-hierarchies-indent.png" title="Indent"/>
+	<img src="img/ex-hierarchies-indent.png" height="3040" title="Indent"/>
 </a>
 </div>
 <p>We would be amiss to overlook indented trees, used ubiquitously by operating systems to represent file directories, among other applications. While indented trees require excessive vertical space and do not facilitate multi-scale inferences, they do allow efficient <i>interactive</i> exploration of the tree to find a specific node. In addition, they allow rapid scanning of node labels, and multivariate data such as file sizes can be displayed adjacent to the hierarchy.</p>
@@ -242,13 +242,13 @@ An alternative to choropleth maps is the <em>graduated symbol map</em>, which in
 <h3>Adjacency Diagrams</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/hierarchies/icicle.html">
-	<img src="img/ex-hierarchies-icicle.png" title="Icicle"/>
+	<img src="img/ex-hierarchies-icicle.png" height="323" title="Icicle"/>
 </a>
 </div>
 <p><em>Adjacency diagrams</em> are space-filling variants of node-link diagrams; rather than drawing a link between parent and child in the hierarchy, nodes are drawn as solid areas (either arcs or bars), and their placement relative to adjacent nodes reveals their position in the hierarchy. The above "icicle" layout is similar to the first node-link diagram, in that the root node appears at the top, with child nodes underneath. However, because the nodes are now space-filling, we can use a length encoding for the size of software classes and packages. This reveals an additional dimension that would be difficult to show in a node-link diagram.</p>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/hierarchies/sunburst.html">
-	<img src="img/ex-hierarchies-sunburst.png" title="Sunburst"/>
+	<img src="img/ex-hierarchies-sunburst.png" height="660" title="Sunburst"/>
 </a>
 </div>
 <p>The "sunburst" layout is equivalent to the "icicle" layout, but in polar coordinates. Both are implemented using a "partition" layout, which can also generate node-link diagrams. Similarly, the previous "cluster" layout can be used to generated space-filling adjacency diagrams in either Cartesian or polar coordinates.</p>
@@ -258,13 +258,13 @@ An alternative to choropleth maps is the <em>graduated symbol map</em>, which in
 <h3>Enclosure Diagrams</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/hierarchies/treemap.html">
-	<img src="img/ex-hierarchies-treemap.png" title="Treemap"/>
+	<img src="img/ex-hierarchies-treemap.png" height="467" title="Treemap"/>
 </a>
 </div>
 <p><i>Enclosure diagrams</i> are also space-filling, using containment rather than adjacency to represent the hierarchy. Introduced by Ben Shneiderman in 1991, a <i>treemap</i> recursively subdivides area into rectangles. As with adjacency diagrams, the size of any node in the tree is quickly revealed. The above example uses padding (in blue) to emphasize enclosure; an alternative saturation encoding is sometimes used. <i>Squarified</i> treemaps use approximately-square rectangles, which offer better readability and size estimation than a naive "slice-and-dice" subdivision. Fancier algorithms such as Voronoi and jigsaw treemaps also exist, but are less common.</p>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/hierarchies/pack.html">
-	<img src="img/ex-hierarchies-pack.png" title="Pack"/>
+	<img src="img/ex-hierarchies-pack.png" height="642" title="Pack"/>
 </a>
 </div>
 <p>By packing circles instead of subdividing rectangles, we can produce a different sort of enclosure diagram that has an almost organic appearance. While it does not use space as efficiently as a treemap, the "wasted space" of <i>circle-packing layouts</i> effectively reveals the hierarchy. At the same time, node sizes can be rapidly compared using area judgments.</p>
@@ -280,7 +280,7 @@ An alternative to choropleth maps is the <em>graduated symbol map</em>, which in
 <h3>Force-Directed Layout</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/networks/force.html">
-	<img src="img/ex-networks-force.png" title="Force-Directed Layout"/>
+	<img src="img/ex-networks-force.png" height="434" title="Force-Directed Layout"/>
 </a>
 </div>
 
@@ -291,7 +291,7 @@ An alternative to choropleth maps is the <em>graduated symbol map</em>, which in
 <h3>Arc Diagrams</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/networks/arc.html">
-	<img src="img/ex-networks-arc.png" title="Arc Diagrams"/>
+	<img src="img/ex-networks-arc.png" height="320" title="Arc Diagrams"/>
 </a>
 </div>
 <p>An <i>arc diagram</i> uses a one-dimensional layout of nodes, with circular arcs to represent links. While arc diagrams may not convey the overall structure of the graph as effectively as a two-dimensional layout, with a good ordering of nodes it is easy to identify cliques and bridges. And, as with the indented tree layout, multivariate data can easily be displayed alongside nodes. The problem of sorting the nodes in a manner that reveals underlying cluster structure is formally called <i>seriation</i>, and has diverse applications in visualization, statistics, and even archaeology!</p>
@@ -301,7 +301,7 @@ An alternative to choropleth maps is the <em>graduated symbol map</em>, which in
 <h3>Matrix Views</h3>
 <div class="figure">
 <a href="https://homes.cs.washington.edu/~jheer/files/zoo/ex/networks/matrix.html">
-	<img src="img/ex-networks-matrix.png" title="Matrix Views"/>
+	<img src="img/ex-networks-matrix.png" height="641" title="Matrix Views"/>
 </a>
 </div>
 <p>Mathematicians and computer scientists often think of a graph in terms of its <i>adjacency matrix</i>: each value in row <i>i</i> and column <i>j</i> in the matrix corresponds to the link from node <i>i</i> to node <i>j</i>. Given this representation, an obvious visualization then is: just show the matrix! Using color or saturation instead of text allows values associated with the links to be perceived more rapidly. The seriation problem applies just as much to <i>matrix views</i> as arc diagrams, so the order of rows and columns is important: here we use the groupings generated by a community detection algorithm to order the display. While path-following is harder in a matrix view than in a node-link diagram, matrices have a number of compensating advantages. As networks get large and highly-connected, node-link diagrams often devolve into giant hairballs of line crossings. However, in matrix views line crossings are impossible and with an effective sorting one quickly can spot clusters and bridges. Allowing interactive grouping and reordering of the matrix facilitates even deeper exploration of network structure.</p>
