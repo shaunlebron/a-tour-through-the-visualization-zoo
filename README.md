@@ -1,4 +1,5 @@
-_section-linkable version of: <https://homes.cs.washington.edu/~jheer/files/zoo/>_
+
+**ARCHIVED FROM <https://homes.cs.washington.edu/~jheer/files/zoo/>_
 
 <!-- pasted from https://homes.cs.washington.edu/~jheer/files/zoo -->
 
@@ -7,6 +8,37 @@ _section-linkable version of: <https://homes.cs.washington.edu/~jheer/files/zoo/
 <p><em>Jeffrey Heer, Michael Bostock, and Vadim Ogievetsky<br/>
 Stanford University</em>
 </p>
+
+
+## Table of Contents
+
+* Introduction
+* Time-Series Data
+  * Index Charts
+  * Stacked Graphs
+  * Small Multiples
+  * Horizon Graphs
+* Statistical Distributions
+  * Stem-and-Leaf Plots
+  * Q-Q Plots
+  * Scatter Plot Matrix (SPLOM)
+  * Parallel Coordinates
+* Maps
+  * Flow Maps
+  * Choropleth Maps
+  * Graduated Symbol Maps
+  * Cartograms
+* Hierarchies
+  * Node-Link Diagrams
+  * Adjacency Diagrams
+  * Enclosure Diagrams
+* Networks
+  * Force-Directed Layout
+  * Arc Diagrams
+  * Matrix Views
+* Conclusion
+  * Additional Material
+  * Visualization Development Tools
 
 <h2>Introduction</h2>
 
