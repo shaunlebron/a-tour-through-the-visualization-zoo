@@ -20,7 +20,10 @@ ${tocLines.join('\n')}`
 
 
 const newText = `
-_ARCHIVED FROM <https://homes.cs.washington.edu/~jheer/files/zoo/>_
+**Disclaimer**: I am NOT the author of this paper.
+This is reproduced from <https://homes.cs.washington.edu/~jheer/files/zoo/>,
+but with a Table of Contents and section links for easier referencing
+(permission pending).
 
 ${text
   .replace('<h2>', `${toc}\n\n<h2>`)
