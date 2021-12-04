@@ -9,7 +9,8 @@ const localImg = s => 'img/' + s.replace(/\//g, '-')
 const processHref = (text, href) => !href.startsWith('http') ? `href="${root}/${href}"` : text
 const processSrc = (text, src) => !src.startsWith('http') ? `src="${localImg(src)}"` : text
 
-const tocLine = ([text, level, title]) => ({2:"",3:"  "}[level] + "* " + title)
+const tocHref = title => '#' + title.replace(/[()]/g, '').trim().replace(/\s+/g, '-').toLowerCase()
+const tocLine = ([text, level, title]) => ({2:"",3:"  "}[level] + `* [${title}](${tocHref(title)})`)
 const tocLines = [...text.matchAll(/<h([23])>([^<]*)</g)].map(tocLine)
 
 const toc = `
@@ -19,7 +20,7 @@ ${tocLines.join('\n')}`
 
 
 const newText = `
-**ARCHIVED FROM <https://homes.cs.washington.edu/~jheer/files/zoo/>_
+_ARCHIVED FROM <https://homes.cs.washington.edu/~jheer/files/zoo/>_
 
 ${text
   .replace('<h2>', `${toc}\n\n<h2>`)

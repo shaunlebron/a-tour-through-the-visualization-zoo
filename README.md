@@ -1,5 +1,5 @@
 
-**ARCHIVED FROM <https://homes.cs.washington.edu/~jheer/files/zoo/>_
+_ARCHIVED FROM <https://homes.cs.washington.edu/~jheer/files/zoo/>_
 
 <!-- pasted from https://homes.cs.washington.edu/~jheer/files/zoo -->
 
@@ -12,33 +12,33 @@ Stanford University</em>
 
 ## Table of Contents
 
-* Introduction
-* Time-Series Data
-  * Index Charts
-  * Stacked Graphs
-  * Small Multiples
-  * Horizon Graphs
-* Statistical Distributions
-  * Stem-and-Leaf Plots
-  * Q-Q Plots
-  * Scatter Plot Matrix (SPLOM)
-  * Parallel Coordinates
-* Maps
-  * Flow Maps
-  * Choropleth Maps
-  * Graduated Symbol Maps
-  * Cartograms
-* Hierarchies
-  * Node-Link Diagrams
-  * Adjacency Diagrams
-  * Enclosure Diagrams
-* Networks
-  * Force-Directed Layout
-  * Arc Diagrams
-  * Matrix Views
-* Conclusion
-  * Additional Material
-  * Visualization Development Tools
+* [Introduction](#introduction)
+* [Time-Series Data](#time-series-data)
+  * [Index Charts](#index-charts)
+  * [Stacked Graphs](#stacked-graphs)
+  * [Small Multiples](#small-multiples)
+  * [Horizon Graphs](#horizon-graphs)
+* [Statistical Distributions](#statistical-distributions)
+  * [Stem-and-Leaf Plots](#stem-and-leaf-plots)
+  * [Q-Q Plots](#q-q-plots)
+  * [Scatter Plot Matrix (SPLOM)](#scatter-plot-matrix-splom)
+  * [Parallel Coordinates](#parallel-coordinates)
+* [Maps](#maps)
+  * [Flow Maps](#flow-maps)
+  * [Choropleth Maps](#choropleth-maps)
+  * [Graduated Symbol Maps](#graduated-symbol-maps)
+  * [Cartograms](#cartograms)
+* [Hierarchies](#hierarchies)
+  * [Node-Link Diagrams](#node-link-diagrams)
+  * [Adjacency Diagrams](#adjacency-diagrams)
+  * [Enclosure Diagrams](#enclosure-diagrams)
+* [Networks](#networks)
+  * [Force-Directed Layout](#force-directed-layout)
+  * [Arc Diagrams](#arc-diagrams)
+  * [Matrix Views](#matrix-views)
+* [Conclusion](#conclusion)
+  * [Additional Material](#additional-material)
+  * [Visualization Development Tools](#visualization-development-tools)
 
 <h2>Introduction</h2>
 
